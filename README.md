@@ -1,6 +1,6 @@
-# Lifemapper Landing Page
+# RDA-PRAGMA-Data-Service
 
-Lifemapper landing page is designed for users to quick access biodiversity data objects metadata and lineage. It is composed of a three-layer architecture:
+RDA-PRAGMA-Data-Service is designed for users to quick access biodiversity data objects metadata and lineage. It also provides data comparison service to detect if output has been updated due to possible mutations. It is composed of a three-layer architecture:
 
 1. Backend layer: Backend layer includes one persistent MongoDB service which is served as metadata repository and file archive which hosts biodiversity objects.
 2. Middle Layer: Middle layer includes web service using Spring framework which responds to queries or ingestions by accessing backend mongoDB and file archive.
